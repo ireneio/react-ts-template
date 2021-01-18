@@ -1,4 +1,4 @@
-# React with Typescript support
+# React with Typescript + Docker
 
 ## Build Setup
 
