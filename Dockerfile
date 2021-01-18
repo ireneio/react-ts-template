@@ -4,7 +4,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 COPY . .
 
-RUN npm install && npm run build
+RUN npm install && npm run build:dockerenv
 
 WORKDIR /usr/src/app/server
 RUN npm install
